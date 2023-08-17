@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .key {
     color: #bbbbbb;
     font-weight: bold;
@@ -8,7 +12,7 @@
 }
 
 .background {
-  background-image: url('./Moonrise.jpg');
+  background-image: url('Moonrise.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
