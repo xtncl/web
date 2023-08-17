@@ -25,6 +25,8 @@
         "tailwindcss": "^3.3.3"
     },
     "scripts": {
-        "build:css": "postcss src/styles.css -o dist/styles.css"
+        "build:css": "postcss src/styles.css -o dist/styles.css",
+        "copy:assets": "copyfiles src/index.html src/*.js dist",
+        "build": "npm run build:css && npm run copy:assets"
     }
 }
