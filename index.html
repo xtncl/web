@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Christian Lepuschitz</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body class="background">
+        <div class="flex items-center justify-center h-screen bg-black bg-opacity-20 rounded-lg shadow-2xl">
+            <div class="w-4/5 sm:w-4/5 max-w-full bg-black bg-opacity-70 rounded-lg shadow-2xl">
+                <div class="p-3 flex justify-between items-center bg-gray-800 bg-opacity-90 rounded-t-lg text-white">
+                    <span class="ml-2 text-xs">Terminal - Website info.json</span>
+                    <div class="flex space-x-2 mr-2">
+                        <span class="bg-red-500 w-3 h-3 rounded-full block"></span>
+                        <span class="bg-yellow-400 w-3 h-3 rounded-full block"></span>
+                        <span class="bg-green-500 w-3 h-3 rounded-full block"></span>
+                    </div>
+                </div>
+                <div class="p-4 md:p-10 lg:p-10 space-y-4">
+                    <pre id="displayText" class="sm:text-xs text-sm text-green-400 whitespace-pre-wrap break-words font-mono"></pre>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

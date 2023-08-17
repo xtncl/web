@@ -1,0 +1,17 @@
+.key {
+    color: #bbbbbb;
+    font-weight: bold;
+}
+
+.value {
+    color: #20e6dd;
+}
+
+.background {
+  background-image: url('./Moonrise.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
