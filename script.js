@@ -5,6 +5,9 @@ let decryptedData = `{
     "description": "Random cybersec dude from austria",
     "username": "xtncl",
     "password": "c2VuZCBhbiBlbmNyeXB0ZWQgbWFpbCB3aXRoICdJZ2VpR2UnIGZvciBhIGZyZWUgY29mZmVl",
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/christianlepuschitz-a28b92103"
+    }
     "contact": {
         "email": {
             "address": "web[at]xtn[dot]sh",
