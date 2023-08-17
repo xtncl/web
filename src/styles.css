@@ -12,7 +12,7 @@
 }
 
 .background {
-  background-image: url('../src/Moonrise.jpg');
+  background-image: url('Moonrise.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

@@ -5,7 +5,7 @@
     "main": "script.js",
     "scripts": {
         "build:css": "postcss src/styles.css -o dist/styles.css",
-        "copy:assets": "copyfiles src/index.html src/*.js dist",
+        "copy:assets": "cp src/*.html src/*.js src/*.jpg dist/",
         "build": "npm run build:css && npm run copy:assets"
     },
     "repository": {
@@ -25,8 +25,5 @@
         "autoprefixer": "^10.4.15",
         "postcss-cli": "^10.1.0",
         "tailwindcss": "^3.3.3"
-    },
-    "devDependencies": {
-        "copyfiles": "^2.4.1"
     }
 }
